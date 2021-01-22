@@ -1,0 +1,10 @@
+.container {
+  width: 280px;
+  height: 450px;
+  text-align: center;
+  border: 2px solid $c-card-border;
+
+  &__cards {
+    margin: 0 auto;
+  }
+}

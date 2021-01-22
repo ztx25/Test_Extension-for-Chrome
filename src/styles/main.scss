@@ -1,7 +1,11 @@
 @import "utils";
-@import "fonts";
-@import "typography";
+@import "page";
+@import "container";
+@import "cards";
+@import "card";
+@import "buttons";
 
-body {
-  background: $c-gray;
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }

@@ -1,0 +1,39 @@
+.buttons {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 35px;
+  background-color: #fff;
+  cursor: pointer;
+
+  &__icon,
+  &__button {
+    cursor: pointer;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  &__button {
+    border: none;
+    fill: grey;
+    background-color: inherit;
+    transition: fill 300ms;
+  }
+
+  &__button:hover {
+    fill: #000;
+  }
+
+  &__button:active,
+  &__button:focus {
+    outline: none;
+  }
+
+  &__active {
+    fill: #960396;
+  }
+}

@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid $c-store-border;
+
+  &__picture {
+    height: 40px;
+  }
+
+  &__link {
+    padding: 4px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid $c-store-border;
+  }
+}

@@ -1,0 +1,46 @@
+.cards {
+  display: flex;
+  scroll-behavior: smooth;
+  overflow: hidden;
+
+  &__page {
+    min-width: 280px;
+  }
+
+  &__heading {
+    padding: 15px 0;
+    font-size: 20px;
+    border-bottom: 2px solid $c-card-border;
+  }
+
+  &__info {
+    height: 338px;
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 2px solid $c-card-border;
+    overflow: auto;
+
+    &--center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__card {
+    margin-bottom: 15px;
+    padding: 5px;
+    padding-right: 20px;
+  }
+
+  &__link {
+    width: 55%;
+    padding: 8px 10px;
+    font-size: 11px;
+    border: 1px solid;
+    color: #fff;
+    background-color: #b62072;
+    text-decoration: none;
+  }
+}

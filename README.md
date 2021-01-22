@@ -1,4 +1,11 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+# Extension interface
+
+- Tech stack: HTML5, CSS3 (SASS), BEM methodology, JS
+- You could check demo out [here](https://ztx25.github.io/Test_Extension-for-Chrome/)
+
+## Local deployment
+
+### Installing
+* Fork and clone this repository
+* Run `npm install` in your terminal
+* Run `npm start`
